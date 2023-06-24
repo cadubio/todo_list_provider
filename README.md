@@ -16,6 +16,6 @@ Além do pacote [provider](https://pub.dev/packages/provider), também foram uti
 - [synchronized](https://pub.dev/packages/synchronized), mecanismo de bloqueio para impedir o acesso simultâneo ao código assíncrono.
 - [nested](https://pub.dev/packages/nested), simplifica a sintaxe para [widgets](https://docs.flutter.dev/ui/widgets-intro) aninhados.
 - [flutter_signin_button](https://pub.dev/packages/flutter_signin_button), gera botões de login para diferentes contas de mídia social.
-- [google_fonts](https://pub.dev/packages/google_fonts), permite usar fontes do fonts.google.com.
+- [google_fonts](https://pub.dev/packages/google_fonts), permite usar fontes do [fonts.google.com](https://fonts.google.com/).
 - ...
 
