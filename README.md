@@ -1,16 +1,12 @@
-# todo_list_provider
+# Primeiro Projeto de Estudo da [Academia do Flutter](https://academiadoflutter.com.br/)
+## Todo List Provider
 
-A new Flutter project.
+O projeto **Todo List Provider**, como o próprio nome diz, consiste em um aplicativo android de lista de tarefas a fazer (*Todo*).
 
-## Getting Started
+A arquitetura do projeto inclui:
 
-This project is a starting point for a Flutter application.
+- O pacote [provider](https://pub.dev/packages/provider), como gerenciador de estado e de injeções de dependências.
+- O padrão [singleton](https://refactoring.guru/pt-br/design-patterns/singleton), que garante que uma classe tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância.
+- O padrão modular, para garantir um gerênciamento de memório mais eficiente.
+- ...
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
