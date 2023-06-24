@@ -1,7 +1,7 @@
-# Primeiro Projeto de Estudo da [Academia do Flutter](https://academiadoflutter.com.br/)
+# Projeto de Estudo da [Academia do Flutter](https://academiadoflutter.com.br/)
 ## Todo List Provider
 
-O projeto **Todo List Provider**, como o próprio nome diz, consiste em um aplicativo android de lista de tarefas a fazer (*Todo*).
+O projeto **Todo List Provider**, como o próprio nome diz, consiste em um aplicativo para gerenciamento de lista de tarefas a fazer (*Todo*).
 
 A arquitetura do projeto inclui:
 
