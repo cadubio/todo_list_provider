@@ -21,7 +21,7 @@ Além do pacote [provider](https://pub.dev/packages/provider), também foram uti
 
 ### Imagens
 
-<p float="left">
+<p align="middle">
   <img src="assets/home_screen.png" width="200" />
   <img src="assets/create_todo_screen.png" width="200" /> 
   <img src="assets/login_screen.png" width="200" />
