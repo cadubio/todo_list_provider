@@ -9,6 +9,8 @@ A arquitetura do projeto inclui:
 - O padrão [singleton](https://refactoring.guru/pt-br/design-patterns/singleton), que garante que uma classe tenha apenas uma instância, enquanto provê um ponto de acesso global para essa instância.
 - O padrão modular, para garantir um gerênciamento de memório mais eficiente, similarmente ao realizado com outros pacotes como o [flutter_modular](https://modular.flutterando.com.br/docs/intro) ou [getX](https://github.com/jonataslaw/getx#about-get).
 
+### Pacotes
+
 Além do pacote [provider](https://pub.dev/packages/provider), também foram utilizados os pacotes
 
 - [sqflite](https://pub.dev/packages/sqflite), SQLite para flutter.
@@ -18,6 +20,10 @@ Além do pacote [provider](https://pub.dev/packages/provider), também foram uti
 - [flutter_signin_button](https://pub.dev/packages/flutter_signin_button), gera botões de login para diferentes contas de mídia social.
 - [google_fonts](https://pub.dev/packages/google_fonts), permite usar fontes do [fonts.google.com](https://fonts.google.com/).
 - ...
+
+### UI
+
+O icone (<img src="https://icon-library.com/images/eye-icon-png/eye-icon-png-12.jpg" alt="drawing" width="15"/>) do *obscureText* foi baixado de [fluttericon.com](https://www.fluttericon.com/), seguindo as intruções da video aula, [veja aqui](https://medium.com/codechai/how-to-use-custom-icons-in-flutter-834a079d977).
 
 ### Imagens
 
