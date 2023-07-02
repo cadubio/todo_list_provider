@@ -37,6 +37,8 @@ dependencies:
   nested: ^1.0.0
   flutter_signin_button: ^2.0.0
   google_fonts: ^5.1.0
+  firebase_core: ^2.14.0
+  firebase_auth: ^4.6.3
 
 
   # The following adds the Cupertino Icons font to your application.
