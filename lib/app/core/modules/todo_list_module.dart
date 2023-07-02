@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/single_child_widget.dart';
-import 'package:todo_list_provider/core/modules/todo_list_page.dart';
+import 'package:todo_list_provider/app/core/modules/todo_list_page.dart';
 
 /// [class] base para toda as [class] da aplicação.
 /// [_routers] pede um caminho [String] e uma paǵina [WidgetBuilder]. Pois esses

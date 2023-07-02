@@ -15,7 +15,8 @@ class SplashPage extends StatelessWidget {
           children: [
             ElevatedButton(
                 onPressed: () => Navigator.of(context).pushNamed('/login'),
-                child: const Text('/login')),
+                child: const Text('/login'),
+                ),
           ],
         ),
       ),

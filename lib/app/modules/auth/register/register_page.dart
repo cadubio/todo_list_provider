@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:todo_list_provider/core/ui/theme_extensions.dart';
-import 'package:todo_list_provider/core/widget/todo_list_field.dart';
-import 'package:todo_list_provider/core/widget/todo_list_logo.dart';
+import 'package:todo_list_provider/app/core/ui/theme_extensions.dart';
+import 'package:todo_list_provider/app/core/widget/todo_list_field.dart';
+import 'package:todo_list_provider/app/core/widget/todo_list_logo.dart';
 
 class RegisterPage extends StatelessWidget {
   const RegisterPage({super.key});

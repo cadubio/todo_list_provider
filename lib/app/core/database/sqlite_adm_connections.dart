@@ -3,7 +3,7 @@
 // observa a árvore de widgets
 
 import 'package:flutter/material.dart';
-import 'package:todo_list_provider/core/database/sqlite_connection_factory.dart';
+import 'package:todo_list_provider/app/core/database/sqlite_connection_factory.dart';
 
 class SqliteAdmConnections with WidgetsBindingObserver {
   @override

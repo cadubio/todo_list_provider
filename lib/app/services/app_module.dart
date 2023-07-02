@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:todo_list_provider/core/database/sqlite_connection_factory.dart';
-import 'package:todo_list_provider/services/app_widget.dart';
+import 'package:todo_list_provider/app/core/database/sqlite_connection_factory.dart';
+import 'package:todo_list_provider/app/services/app_widget.dart';
 
 /// Estrutura de Módulos:
 /// Módulo Ativo --> dependências (classes que dependem dele ) ativas

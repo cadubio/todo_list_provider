@@ -19,11 +19,13 @@ Além do pacote [provider](https://pub.dev/packages/provider), também foram uti
 - [nested](https://pub.dev/packages/nested), simplifica a sintaxe para [widgets](https://docs.flutter.dev/ui/widgets-intro) aninhados.
 - [flutter_signin_button](https://pub.dev/packages/flutter_signin_button), gera botões de login para diferentes contas de mídia social.
 - [google_fonts](https://pub.dev/packages/google_fonts), permite usar fontes do [fonts.google.com](https://fonts.google.com/).
+- [Firebase_core]() e [Firebase_auth]()
+- [valdatorLess]()
 - ...
 
 ### UI
 
-O icone (<img src="https://icon-library.com/images/eye-icon-png/eye-icon-png-12.jpg" alt="drawing" width="15"/>) do *obscureText* foi baixado de [fluttericon.com](https://www.fluttericon.com/), seguindo as intruções da video aula, [veja aqui](https://medium.com/codechai/how-to-use-custom-icons-in-flutter-834a079d977).
+O icone (<img src="https://icon-library.com/images/eye-icon-png/eye-icon-png-12.jpg" alt="drawing" width="15"/>) do *obscureText* foi baixado de [fluttericon.com](https://www.fluttericon.com/), seguindo as intruções da video aula, [veja aqui](https://medium.com/codechai/how-to-use-custom-icons-in-flutter-834a079d977) como adicionar icones ao projeto [flutter](https://flutter.dev).
 
 ### Imagens
 
