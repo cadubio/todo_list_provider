@@ -33,7 +33,7 @@ class UserRepositoryImpl implements UserRepository {
         } else {
           throw AuthException(
               message:
-                  'Você se cadastrou no TodoList pelo google, por favor utiliza ele para entrar!');
+                  'Você se cadastrou no Todo List pelo google, por favor utiliza ele para entrar!');
         }
       } else {
         throw AuthException(

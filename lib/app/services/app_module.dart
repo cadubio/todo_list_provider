@@ -2,6 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:todo_list_provider/app/core/database/sqlite_connection_factory.dart';
+import 'package:todo_list_provider/app/repositories/user/user_repository.dart';
 import 'package:todo_list_provider/app/repositories/user/user_repository_impl.dart';
 import 'package:todo_list_provider/app/services/app_widget.dart';
 
@@ -24,7 +25,12 @@ class AppModule extends StatelessWidget {
           create: (_) => SqliteConnectionFactory(),
           lazy: false, // instancia a classe assim que abrir o App
         ),
-        Provider(
+        /// Para trabalhar com Interface no provider é preciso tipar qual é a 
+        /// Interface que o Provider vai buscar, no caso UserRepository, passando 
+        /// a implementação da Interface.
+        Provider<UserRepository>(
+          /// O context.read() busca a instância do [FirebaseAuth] pelo contexto [context]
+          // Ver aula sobre [Provider]
           create: (context) => UserRepositoryImpl(
             firebaseAuth: context.read(),
           ),
